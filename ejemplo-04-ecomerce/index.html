@@ -5,36 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Muebles de Occidente</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>Tienda <span>Muebles de Occidente</span></h1>
+        <h1 class="nombre-sitio">Tienda <span>Muebles de Occidente</span></h1>
     </header>
 
-    <nav id="navegacion">
-        <a href="javascript:void(0)">Inicio</a>
-        <a href="javascript:void(0)">Nosotros</a>
-        <a href="javascript:void(0)">Tienda</a>
-        <a href="javascript:void(0)">Blog</a>
-        <a href="javascript:void(0)">Galeria</a>
-        <a href="javascript:void(0)">Contacto</a>
-    </nav>
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="javascript:void(0)">Inicio</a>
+            <a href="javascript:void(0)">Nosotros</a>
+            <a href="javascript:void(0)">Tienda</a>
+            <a href="javascript:void(0)">Blog</a>
+            <a href="javascript:void(0)">Galeria</a>
+            <a href="javascript:void(0)">Contacto</a>
+        </nav>
+    </div>
 
-    <section>
-        <h2>Categorias de Productos</h2>
-        <div>
-            <img src="./assets/img/categoria1.jpg" alt="Imagen de categoria">
-            <a href="javascript:void(0)">Oficina</a>
+    <div class="baner"></div>
+
+    <section class="contenedor">
+        <h2>Categorias de <span>Productos</span></h2>
+
+        <div class="listado-categorias">
+
+            <div>
+                <img src="./assets/img/categoria1.jpg" alt="Imagen de categoria">
+                <a href="javascript:void(0)">Oficina</a>
+            </div>
+            <div>
+                <img src="./assets/img/categoria2.jpg" alt="Imagen de categoria">
+                <a href="javascript:void(0)">Hogar</a>
+            </div>
+            <div>
+                <img src="./assets/img/categoria3.jpg" alt="Imagen de categoria">
+                <a href="javascript:void(0)">Cocina</a>
+            </div>
+
         </div>
-        <div>
-            <img src="./assets/img/categoria2.jpg" alt="Imagen de categoria">
-            <a href="javascript:void(0)">Hogar</a>
-        </div>
-        <div>
-            <img src="./assets/img/categoria3.jpg" alt="Imagen de categoria">
-            <a href="javascript:void(0)">Cocina</a>
-        </div>
+        
     </section>
 
     <section>
@@ -44,7 +55,7 @@
         </div>
     </section>
 
-    <main><!-- Parte mas importante de la pagina web-->>
+    <main><!-- Parte mas importante de la pagina web-->
 
         <h2>Nuestros Productos</h2>
         
